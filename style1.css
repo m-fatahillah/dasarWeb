@@ -8,21 +8,20 @@
 }
 
 .sidebar-satu {
-    /* flex-basis: 20%; */
-    width: 20%; /* Berikan lebar 20% untuk setiap sidebar */
+    width: 20%; 
     padding: 20px;
     box-sizing: border-box;
 }
 .sidebar-dua {
-    /* flex-basis: 20%; */
-    width: 20%; /* Berikan lebar 20% untuk setiap sidebar */
+   
+    width: 20%; 
     padding: 20px;
     box-sizing: border-box;
 }
 
 .kolom-utama {
-    /* flex-basis: 60%; */
-    width: 60%; /* Berikan lebar 60% untuk kolom utama */
+    
+    width: 60%; 
     padding: 20px;
     box-sizing: border-box;
    
