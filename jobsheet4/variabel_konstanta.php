@@ -16,4 +16,4 @@ echo"<br>";
  
  echo "Selamat datang di " . Nama_SITUS . ",situs yang didirikan pada tahun " . TAHUN_PENDIRIAN . "."; 
  ?>
- 
+ `
