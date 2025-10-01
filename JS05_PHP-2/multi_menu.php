@@ -7,18 +7,19 @@ $menu = [
         "nama" => "Berita",
         "subMenu" => [
             [
-                "nama" => "Pantai"
+                "nama" => "Wisata",
+                "subMenu" => [
+                    ["nama" => "Pantai"],
+                    ["nama" => "Gunung"]
+                ]
             ],
             [
-                "nama" => "Gunung"
+                "nama" => "Kuliner"
+            ],
+            [
+                "nama" => "Hiburan"
             ]
         ]
-    ],
-    [
-        "nama" => "Kuliner"
-    ],
-    [
-        "nama" => "Hiburan"
     ],
     [
         "nama" => "Tentang"
@@ -28,13 +29,18 @@ $menu = [
     ]
 ];
 
-function tampilkanMenuBertingkat (array $menu) {
+function tampilkanMenuBertingkat(array $menu) {
     echo "<ul>";
-    foreach($menu as $key => $item){
-        echo "<li>{$item['nama']}</li>";
+    foreach($menu as $item){
+        echo "<li>{$item['nama']}";
+        
+        if (isset($item['subMenu'])) {
+
+            tampilkanMenuBertingkat($item['subMenu']);
+        }
+        echo "</li>";
     }
     echo "</ul>";
-
 }
 
 tampilkanMenuBertingkat($menu);
