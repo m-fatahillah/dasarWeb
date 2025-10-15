@@ -10,7 +10,6 @@ body {
     color: #333333;
 }
 
-/* Navigation */
 nav {
     background-color: #DA291C;
     padding: 15px 30px;
@@ -43,28 +42,31 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Container */
 .container {
     width: 1200px;
-    margin: 0 auto;
+    margin:  auto;
     padding: 30px;
 }
 
-/* Hero */
-.hero {
+
+.judul {
     background-color: #DA291C;
     color: white;
     padding: 50px;
     text-align: center;
     margin-bottom: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
-
-.hero h1 {
+.judul img{
+    width: 400px;
+}
+.judul h1 {
     font-size: 40px;
     margin-bottom: 10px;
 }
 
-/* Section Title */
 .section-title {
     color: #DA291C;
     margin-bottom: 20px;
@@ -74,7 +76,6 @@ nav ul li a:hover {
     
 }
 
-/* News Section */
 .news {
     margin-bottom: 40px;
 }
@@ -103,7 +104,6 @@ nav ul li a:hover {
     color: #999999;
 }
 
-/* Schedule */
 .schedule {
     margin-bottom: 40px;
 }
@@ -125,7 +125,6 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-/* Players */
 .players {
     margin-bottom: 40px;
 }
@@ -161,7 +160,6 @@ nav ul li a:hover {
     font-size: 14px;
 }
 
-/* Footer */
 footer {
     background-color: #1a1a1a;
     color: white;
