@@ -117,8 +117,14 @@ nav ul li a:hover {
     background-color: #f9f9f9;
     padding: 20px;
     margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
-
+.legend-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 .legend-card h3 {
     color: #DA291C;
     margin-bottom: 10px;
