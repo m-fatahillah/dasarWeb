@@ -29,12 +29,13 @@ if (!$result) {
 </head>
 <body>
     <nav>
-        <ul>
-            <li>MANCHESTER UNITED</li>
-            <li><a href="tugasRevisiUTSHome.php">Home</a></li>
-            <li><a href="tugasRevisiUTSAbout.php">About</a></li>
-        </ul>
-    </nav>
+    <ul>
+        <li>MANCHESTER UNITED</li>
+        <li><a href="tugasRevisiUTSHome.php">Home</a></li>
+        <li><a href="tugasRevisiUTSAbout.php">About</a></li>
+        <li><a href="admin_pemain.php">Admin</a></li>
+    </ul>
+</nav>
     <hr>
     <div class="hero">
         <h1>About Manchester United</h1>
